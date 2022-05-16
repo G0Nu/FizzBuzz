@@ -1,0 +1,26 @@
+// si es multiplo de 3 escribe fizz
+//si es multiplo de 5 escribe fizz
+//Y si es de ambos escribe fizz buzz
+
+for (var i = 1; i<100; i++)
+{
+
+    if(i%3 == 0 && i%5 == 0)
+    {
+        console.log("fizzbuzz")
+    }
+    else if(i%3 == 0)
+    {
+        console.log("fizz ");
+    }
+    else if(i%5 == 0)
+    {
+        console.log("Buzz ");
+    }
+    else{
+        console.log(i);
+    }
+
+   
+    
+}
